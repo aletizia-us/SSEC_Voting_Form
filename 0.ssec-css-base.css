@@ -1,0 +1,147 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #f6f6f6;
+    width: max-content;
+    height: max-content;
+    display: block;
+    margin: auto;
+}
+#header {
+    width: 100%;
+    height: 96px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header-logo {
+    width: 120px;
+    height: 41px;
+    margin: 16px 0px;
+    position: relative;
+    top: 10px;
+}
+
+/*Link Style*/
+.link-style {
+    font-weight: bold;
+    position: relative;
+    top: 18px;
+}
+li {
+    display: inline-block;
+    font-size: 15px;
+}
+.menu-link {
+    color: #66625F;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+#social-links {
+    width: 130px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+}
+.socials {
+    width: 19px;
+    height: 15px;
+    position: relative;
+    top: 18px;
+    margin: 5px;
+}
+
+
+
+/*Banner*/
+#banner {
+    position: absolute;
+    top: 96px;
+    left: 0px;
+    width: 100%;
+    height: 152px;
+
+    background-color: #FF8F3F;
+    padding: 80px 0px;
+}
+.heading {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px 0 20px 0;
+}
+
+
+
+/*Footer*/
+
+#extra-info {
+    height: 180px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px 40px 40px;
+}
+.info {
+    margin: 20px;
+}
+h2 {
+    font-size: 32px; 
+    color: #37302A;
+    font-weight: normal;
+    margin: 0px 32px 0px 0px;
+}
+.info-heading1 {
+    height: 96px;
+    width: 220px;
+}
+.info-heading {
+    height: 48px;
+    width: 221px;
+}
+.p-base {
+    color: #66625F;
+}
+.left {
+    text-align: left;
+}
+
+/*Bottom Header*/
+.bottom-header {
+    height: max-content;
+    padding: 48px 40px 24px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bottom-logo {
+    width: 221px;
+    height: 76px;
+}
+.bottom-menu {
+    width: 450px;
+    height: 61px;
+    display: flex;
+}
+.bottom-links {
+    color: #66625F;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 12px;
+}
+.bottom-socials {
+    width: 221px;
+    height: 29px;
+}
+.bottom-social-links {
+    width: 19px;
+    height: 15px;
+}

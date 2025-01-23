@@ -1,0 +1,55 @@
+#body{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    position: relative;
+    top: 440px;
+    
+    display: flex;
+}
+.image-container{
+    margin: 0px 100px 80px 0px;
+}
+.info-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.c-image {
+    width: 280px;
+    height: 307px;
+    border-radius: 30px;
+}
+.back {
+    width: 50px;
+    height: auto;
+    border: #FF8F3F solid 2px;
+    border-radius: 50%;
+    position: absolute;
+    left: 230px;
+    transform: rotate(50deg);
+}
+
+.c-name {
+    font-size: 36px;
+    color: #3b3836;
+}
+span {
+    text-decoration: underline 2px #FF8F3F;
+    text-transform: capitalize;
+}
+.c-quote {
+    font-size: 28px;
+    font-style: italic;
+}
+
+/*Footer*/
+    #footer {
+        position: relative;
+        top: 410px;
+        width: max-content;
+        height: max-content;
+        margin: auto;
+    }

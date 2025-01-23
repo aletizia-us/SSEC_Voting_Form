@@ -1,0 +1,238 @@
+/*body*/
+#body{
+    position: relative;
+    top: 410px;
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}    
+.question {
+    width: 690px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.sch-pref, .health-pref, .sports-pref {
+    margin-bottom: 40px;
+}
+/*form*/
+form {
+    display: grid;
+    grid-template-areas: 
+    "one button-box button-box two"
+    "three button-box button-box four"
+    "five button-box button-box six"
+    "buttons buttons buttons buttons";
+
+    width: max-content;
+    height: max-content;
+    margin: auto;
+
+}
+.one {
+    grid-area: one;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.two {
+    grid-area: two;
+    display: flex;
+    flex-direction: row;
+}
+.three {
+    grid-area: three;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.four {
+    grid-area: four;
+    display: flex;
+    flex-direction: row;
+}
+.five {
+    grid-area: five;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.six {
+    grid-area: six;
+    display: flex;
+    flex-direction: row;
+}
+
+/*candidates*/
+.candidate {
+    width: 350px;
+    height: 190px;
+    margin: 30px 30px 0px 30px
+}
+.candidate-img {
+    width: 130px;
+    height: 150px;
+    border: 20px solid;
+    border-image: url(pictures/orange-cloth.png) 50 round;
+}
+.goal:hover, .name:hover {
+    color: #FF8F3F;
+}
+.name{
+    text-transform: capitalize;
+}
+.votes-text {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-decoration: underline 1px #FF8F3F;
+}
+
+.button-box{
+    grid-area: button-box;
+    position: relative;
+    top: 270px;
+}
+.box-1, .box-2, .box-3{
+    position: relative;
+    display: flex;
+}
+.box-1{
+    bottom: 170px;
+}
+.box-3{
+    top: 150px;
+}
+.yes-no {
+    margin: 10px;
+}
+.vote-button {
+    width: 80px;
+    height: 24px;
+    border-radius: 5px;
+    top: -3px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid #FF8F3F;
+}
+
+
+.vote-button:active {
+    width: 80px;
+    height: 24px;
+    border-radius: 5px;
+    top: -3px;
+    left: -1px;
+    position: relative;
+    background-color: #FF8F3F;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+}
+
+.buttons {
+    grid-area: buttons;
+    margin: 30px;
+    position: relative;
+    left: 390px;
+}
+button {
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 25px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+button:hover {
+    filter: brightness(70%);
+}
+.submit {
+    background-color: #FF8F3F;
+}
+.reset {
+    background-color: #66625F;
+}
+ 
+/*Pop Up*/
+.show1 {
+    background-color: #8c0a0a;
+    padding: 120px 50px 0px 50px;
+    width: 300px;
+    height: 200px;
+
+    position: absolute;
+    top: 300px;
+    left: 310px;
+    visibility: visible;
+}
+
+.show2 {
+    background-color: #8c0a0a;
+    padding: 120px 50px 0px 50px;
+    width: 300px;
+    height: 200px;
+
+    position: absolute;
+    top: 1210px;
+    left: 310px;
+    visibility: visible;
+}
+
+.show3 {
+    background-color: #8c0a0a;
+    padding: 120px 50px 0px 50px;
+    width: 300px;
+    height: 200px;
+
+    position: absolute;
+    bottom: 1806px;
+    left: 310px;
+    visibility: visible;
+}
+.show4 {
+    background-color: #8c0a0a;
+    padding: 120px 50px 0px 50px;
+    width: 300px;
+    height: 200px;
+
+    position: absolute;
+    bottom: 900px;
+    left: 310px;
+    visibility: visible;
+}
+
+.pop-up-text1, .pop-up-text2, .pop-up-text3, .pop-up-text4 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+#page-btn {
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: #FF8F3F;
+    border-radius: 30px;
+
+}
+
+/*Footer*/
+    #footer {
+        position: relative;
+        top: 410px;
+        width: max-content;
+        height: max-content;
+        margin: auto;
+    }
+
+/*House Page*/
+    .green{background-color: white; border: green solid 2px; color: green;}
+    .red{background-color: white; border: red solid 2px; color: red;}
+    .blue{background-color: white; border: blue solid 2px; color: blue;}
+    .white{background-color: white; border: #66625F solid 2px; color: #66625F;}
